@@ -101,6 +101,39 @@ export default function Footer() {
               <Clock size={16} className="mt-0.5 shrink-0 text-white/80" />
               <span>{site.workingHours}</span>
             </li>
+            <li className="flex items-start gap-2">
+              <a
+                href={site.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-2"
+              >
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white">
+                  <path d="M12 2.163c3.204 3.615 5.012 8.232 5.012 13.061 0 4.829-1.808 9.446-5.012 13.061" stroke="currentColor" strokeWidth="1.5"/>
+                  <path d="M12 12.75a5.25 5.25 0 1 0 0 10.5 5.25 5.25 0 0 0 0-10.5zm0 2.25a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" stroke="currentColor" strokeWidth="1.5"/>
+                </svg>
+                <span className="flex flex-col">
+                  <span className="text-white/80">Instagram</span>
+                  <span className="text-xs text-white/60">{site.instagram}</span>
+                </span>
+              </a>
+            </li>
+            <li className="flex items-start gap-2">
+              <a
+                href={site.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-2"
+              >
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="text-white">
+                  <path d="M22.675 0h-20.35A2.675 2.675 0 0 0 0 2.675v18.65C0 23.325 2.675 26 5.35 26h5.175V14.7h-3.5v-3.5h3.5V9.502c0-3.006 1.981-4.75 4.525-4.75 1.375 0 2.686.15 2.85.25v2.413h-2.05c-1.5 0-1.795.725-1.795 1.75v2.25h3.35l-.45 3.5h-2.9v14.65H22.675c2.675 0 4.825-2.675 4.825-5.35V2.675A2.675 2.675 0 0 0 22.675 0z"/>
+                </svg>
+                <span className="flex flex-col">
+                  <span className="text-white/80">Facebook</span>
+                  <span className="text-xs text-white/60">{site.facebook}</span>
+                </span>
+              </a>
+            </li>
           </ul>
         </div>
       </Container>

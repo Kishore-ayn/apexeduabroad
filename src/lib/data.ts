@@ -14,6 +14,8 @@ export const site = {
   // TODO: swap for the exact Google Business Profile link once the office has a verified pin.
   workingHours: "Mon – Sat: 10:00 AM – 7:00 PM",
   whatsappMessage: "Hi Apex EduAbroad, I'd like a free consultation about studying abroad.",
+  instagram: "https://www.instagram.com/apex_edu_overseas/",
+  facebook: "https://www.facebook.com/apexeduoverseasconsultancy",
 };
 
 export const stats = [
